@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+    font-family: 'Dancing Script', cursive;
+    background:rgb(238, 235, 235) ; 
+    background-size: 1900px;
+    object-fit: cover;
+    background-attachment: fixed;
+  
+}
+
+
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    
+}
+
+
+/* Sugetões */
+
+/*Fim das Sugestões*/
+
+
+#Cabeçalho{
+    box-shadow: 0 4px 8px #999;
+    background:  rgba(121, 202, 212, 0.582); 
+    left: 0;
+    padding: 15px;
+    text-align: center;
+    height: 20vh;
+    width: 100%;
+}
+
+#logo{
+    font-family: 'Montserrat', sans-serif;
+    padding: 13px;
+}
+
+#menu {
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+    font-family: monospace;
+    font-size: 1.3em;
+}
+
+
+
+
+
+
+
+#area-principal{
+    padding: 15px;
+    width: 920px;
+    margin: 0 auto;
+   
+
+}
+
+
+
+#area-lateral{
+    border-radius: 45px;
+    float: right;
+    width: 240px;
+}
+
+
+
+#area-postagens{
+    float: left;
+    width: 660px;
+    
+}
+
+
+
+.postagem{
+    box-shadow: 0 4px 8px #999;
+    border-radius: 45px;
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.postagem2{
+    
+    box-shadow: 0 4px 8px #999;
+    border-radius: 45px;
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 920px;
+    
+}
+
+.conteudo-lateral{
+    box-shadow: 0 4px 8px #999;
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 45px;
+    font-family: "Prompt", sans-serif;
+    width: 200px;
+
+ }
+
+
+
+ #rodapé{
+    background: rgb(167, 165, 165);
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    width: 920px;
+    margin: 0 auto;  
+    font-family: "Shadows Into Light Two";
+    font-size: 1.5em;
+}
+
+.data{
+    font-size: 0.8em;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom:10px ;
+    margin: 0 auto;
+    display: block;
+      
+} 
+
+
+img.teste{
+    object-fit: cover;  
+    width: 256px;
+    height: 200px;
+  }
+
+
+
+span{
+    text-align: left;
+    margin-left: 25px;
+    font-family: 'Prompt', sans-serif;
+}
+
+
+
+input{
+    display: none;
+}
+
+
+
+h2{
+    color: DarkCyan;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 1.8em;
+    padding: 2.7px;
+}
+
+p{
+    font-size: 1.3em;
+    font-family: 'Prompt', sans-serif;
+    text-align: justify;
+    padding: 10px;
+}
+
+h4{
+    font-size: 2em;
+    text-align: center;
+    font-family: monospace;
+}
+
+.conteudo-lateral{
+    background: white;
+}
+
+
+
+
+h3{
+    color: DarkCyan;
+    font-family: 'Tangerine', cursive;
+    background: rgba(121, 202, 212, 0.582); 
+    font-size: 3em;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 45px;
+}
+
+
+#imagem{
+    box-shadow: 0 4px 8px #999;
+    width: 200px;
+    background: white;
+    padding: 25px;
+    margin-bottom: 5px;
+    border-radius: 45px;
+    font-family: "Prompt", sans-serif;
+}
+
+#imagem2{
+    margin: 0 auto;
+    padding: 10px;
+    width: 300px;
+    border-radius: 45px;
+    font-family: "Prompt", sans-serif;
+    align-items: center;
+    
+}
+
+
+
+
+li{
+    color: DarkCyan;
+}
+
+
+
+
+
+
+
+h1{
+    color: #fff;
+    font-size: 2em;
+}
+
+.roxo{
+    color: DarkCyan;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.3em;
+    color:DarkCyan;
+    padding: 8px 20px;
+}
+
+a:hover{
+    color: DarkCyan;
+    background:#fff;
+    border: 1px white solid;
+    border-radius: 45px;
+    
+}
+
+
+
