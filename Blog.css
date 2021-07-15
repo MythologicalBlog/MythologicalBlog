@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+
+   
+}
+
+body{
+    font-family: 'Dancing Script', cursive;
+    background:rgb(238, 235, 235) ; 
+    background-size: 1900px;
+    object-fit: cover;
+    background-attachment: fixed;
+  
+}
+
+#Cabeçalho{
+    box-shadow: 0 4px 8px #999;
+    background: rgba(121, 202, 212, 0.582); 
+    padding: 15px;
+    text-align: center;
+    height: 20vh;
+    width: 100%;
+}
+
+#logo{
+    font-family: 'Montserrat', sans-serif;
+    padding: 13px;
+}
+#menu{
+    padding: 15px;
+    font-family: monospace;
+    font-size: 1.3em;
+}
+
+
+
+a{
+    text-decoration: none;
+    font-size: 1.3em;
+    color:DarkCyan;
+    padding: 8px 20px;
+}
+
+a:hover{
+    color:DarkCyan ;
+    background:#fff;
+    border: 1px white solid;
+    border-radius: 45px;
+    
+}
+
+
+
+h1{
+    color: #fff;
+    font-size: 2em;
+}
+
+font{
+    color: darkcyan;
+}
+
+
+.postagem{
+    box-shadow: 0 4px 8px #999;
+    border-radius: 45px;
+    background: white;
+    padding: 20px;
+    text-align: justify;
+    margin: 10 auto;
+    font-family: "Prompt", sans-serif;
+    width: 500px;
+}
+
+
+#imagem{
+    
+    width: 300px;
+    margin: 0 auto;
+}
+
+form{
+    width: 500px;
+    margin-left: 50%;
+    margin-right: 50%;
+    padding: 20px;
+    margin: 10 auto;
+    box-shadow: 0 4px 8px #999;
+    font-family: "Prompt", sans-serif;
+    background: white;
+    color: DarkCyan;
+    border-radius: 45px;
+    margin-bottom: 20px;
+    
+}
+
+input, textarea{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 1em;
+    font: 1em;
+    
+}
+
+label{
+    font-weight: bold;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+
+
+
+button{
+    background: white;
+    border: 1px solid DarkCyan;
+    color: DarkCyan;
+    font-weight: bold;
+    padding: 15px;
+    
+}
+
+input:focus, textarea:focus{
+    border: 2px solid darkcyan !important;
+}
+
+button:hover{
+    background: darkcyan;
+    color: white;
+    cursor: pointer;
+}
+
+
+input:valid, textarea:valid{
+    border-color:green;
+}
+
+input:invalid, textarea:invalid{
+    border-color: red;
+}
+
+
+span{
+    position: absolute;
+
+}
+
+input:valid + span::before, textarea:valid + span::before{
+    content: '✓';
+    color: green;
+
+}
+
+
+input:invalid + span::before, textarea:invalid + span::before{
+    content: '✖';
+    color: red;
+
+}
+
+
+
+input + span::before{
+    position: relative;
+    left: 480px;
+    
+    bottom: 43px;
+}
+
+textarea + span::before{
+    position: relative;
+    left: 480px;
+    bottom: 80px;
+}
+
+
+
+
+
+
