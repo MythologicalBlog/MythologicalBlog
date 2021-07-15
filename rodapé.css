@@ -1,0 +1,11 @@
+#rodapé{
+    background: rgb(167, 165, 165);
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    width: 500px;
+    margin: 0 auto;  
+    font-family: "Shadows Into Light Two";
+    font-size: 1.5em;
+}
+
